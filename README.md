@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice@deno/mod.js';
+import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice@v0.1.0-deno/mod.js';
 ```
 
 #### slice( str, start, end )
@@ -80,7 +80,7 @@ The function accepts the following arguments:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice@deno/mod.js';
+import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice@v0.1.0-deno/mod.js';
 
 var str = slice( 'presidential election', 1, 21 );
 // returns 'residential election'
