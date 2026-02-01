@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice@esm/index.mjs';
+import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice@v0.1.1-esm/index.mjs';
 ```
 
 #### slice( str, start, end )
@@ -85,7 +85,7 @@ The function accepts the following arguments:
 <body>
 <script type="module">
 
-import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice@esm/index.mjs';
+import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice@v0.1.1-esm/index.mjs';
 
 var str = slice( 'presidential election', 1, 21 );
 // returns 'residential election'
