@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-slice/tags). For example,
+
+```javascript
 import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice@v0.1.1-esm/index.mjs';
 ```
 
@@ -85,7 +90,7 @@ The function accepts the following arguments:
 <body>
 <script type="module">
 
-import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice@v0.1.1-esm/index.mjs';
+import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-slice@esm/index.mjs';
 
 var str = slice( 'presidential election', 1, 21 );
 // returns 'residential election'
